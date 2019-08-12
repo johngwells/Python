@@ -1,5 +1,3 @@
-# using inputs
-
 prompt = "\nTell me something, and I will repeat it back you: "
 prompt += "\nEnter 'quit' to end the program. "
 
