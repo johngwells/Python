@@ -24,7 +24,7 @@ class Car():
         if milage >= self.odometer_reading:
             self.odometer_reading = milage
         else:
-            print("You can't roll back an odomter!")
+            print("You can't roll back an odometer!")
             
     def increment_odometer(self, miles):
         """Add the given amount to the odometer reading."""
