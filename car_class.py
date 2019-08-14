@@ -36,3 +36,12 @@ my_new_car.read_odometer()
 
 my_new_car.update_odometer(100)
 my_new_car.read_odometer()
+
+class ElectricCar(Car):
+    """Represents aspects of a ar, pecific to electric vehicles."""
+    def __init__(self, make, model, year):
+        """Initialize attributes of the parent class."""
+        super().__init__(make, model, year)
+        
+my_tesla = ElectricCar('tesla', 'model s', 2016)
+print(my_tesla.get_descriptive_name())
